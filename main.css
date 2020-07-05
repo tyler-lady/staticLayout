@@ -248,21 +248,9 @@ a {
     flex-direction: column;
 }
 
-.planPreHeadline {
-
-}
-
 .planHeadline {
     font-weight: bolder;
     font-size: 28px;
-}
-
-.planSubHeadline {
-
-}
-
-.selectPlan {
-
 }
 
 .selectPlanButton {
