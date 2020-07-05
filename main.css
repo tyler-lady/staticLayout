@@ -1,0 +1,577 @@
+@font-face {
+    font-family: 'huluCustom';
+    src: url('https://www.hulu.com/static/hitch/static/fonts/Graphik/Graphik-Regular-Web.woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'huluCustom';
+    src: url('https://www.hulu.com/static/hitch/static/fonts/Graphik/Graphik-Semibold-Web.woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'huluCustom';
+    src: url('https://www.hulu.com/static/hitch/static/fonts/Graphik/Graphik-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'huluCustom';
+    src: url('https://www.hulu.com/static/hitch/static/fonts/Graphik/Graphik-Medium-Web.woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'huluCustom';
+    src: url('https://www.hulu.com/static/hitch/static/fonts/Graphik/Graphik-Extralight-Web.woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+    font-family: 'huluCustom', Helvetica, Arial, sans-serif;
+    background-color: #EBEDF2;
+    color: #292b2c;
+    height: 100%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+#welcomeBanner {
+    overflow: hidden;
+    text-align: center;
+    background-image: url('https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48');
+    background-size: 130%;
+    background-position: -350px;
+}
+
+#logInButton {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    left: 92%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.headlineWrapper {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+#preHeadline {
+    position: relative;
+    color:#1ce783;
+    font-size: 12px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+
+#headline {
+    position: relative;
+}
+
+#logo {
+    max-width: 400px;
+    max-height: 100px;
+}
+
+#subHeadline {
+    position: relative;
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    word-break: break-word;
+    width: 750px;
+    height: 75px;
+    left: 20%;
+}
+
+#salesHeadline {
+    position: relative;
+    color: white;
+    font-size: 14px;
+}
+
+#trialButton {
+    width: 250px;
+    height: 50px;
+    border: solid white;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#legal {
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+#bundler {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(135deg,#231437 0%,#2c385e 50%,#336e6b 100%);
+    padding-top: 25px; 
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#bundleLogos {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#savings {
+    position: relative;
+    color: #1ce783;
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+
+#getBundle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    left: 5%;
+    text-align: center;
+}
+
+#bundleButton {
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#contentBlock {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -6px;
+}
+
+#bottomHalfWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+#planWrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 11%;
+    color: #292C33;
+}
+
+#planHeaders {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid 1px;
+    border-color: transparent;
+    border-bottom-color: #EBEDF2;
+    width: 90%;
+}
+
+#pitch {
+    padding-top: 50px;
+    text-align: left;
+    width: 50%;
+}
+
+#planHeadWrap {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 25px;
+
+}
+
+#basicPlan {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#livePlan {
+    width: 50%;
+    background-color: #F7F8FA;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.planPreHeadline {
+
+}
+
+.planHeadline {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.planSubHeadline {
+
+}
+
+.selectPlan {
+
+}
+
+.selectPlanButton {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#planFeatures {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 90%;
+}
+
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: solid .5px;
+    border-color: transparent;
+    border-top-color: #EBEDF2;
+    border-bottom-color: #EBEDF2;
+    width: 100%;
+    height: 100%;
+}
+
+.featureItem {
+    width: 50%;
+    text-align: left;
+    word-break: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pricingChecks {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.basicCheck{
+    width: 50%;
+    margin-top: 15px;
+}
+
+.liveCheck {
+    width: 50%;
+    padding-top: 15px;
+    background-color: #F7F8FA;
+    border-bottom-color: #F7F8FA;
+}
+
+#disclaimer {
+    font-size: 10px;
+    text-align: left;
+    border: solid 1px;
+    border-color: transparent;
+    border-top-color: #EBEDF2;
+}
+
+#addOnButton {
+    border: solid 1px;
+    border-color: transparent;
+    border-top-color: #EBEDF2;
+    border-bottom-color: #EBEDF2;
+    width: 90%;
+    height: 50px;
+    padding-top: 22px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+#featPlans {
+    background-color: lightgray;
+    position: relative;
+}
+
+#planBasic {
+    background-color: white;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#basicSelect {
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#planWithLive {
+    background-color: white;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liveSelect {
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.caret{
+    width: 25px;
+    height: 10px;
+}
+
+ul {
+    list-style-image: url('https://www.hulu.com/static/hitch/static/icons/icon_green_check.svg');
+}
+
+#divider {
+    height: 125px; 
+    background-color: #F7F8FA;
+}
+
+#bottomPageWrapup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    color: #656B7B;
+}
+
+#planHeadline {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: left;
+    vertical-align: top;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+#bottomTrialButton {
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 250px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#graysWrapper {
+    position: relative;
+    display: flex;
+    height: max-content;
+    width: max-content;
+    margin-left: 50px;
+    margin-top: -75px;
+}
+
+img#mobileExample {
+    width: 375px;
+    height: 425px;
+    border: 0px; 
+}
+
+#bottomPageNav {
+    display: flex;
+    text-align: center;
+    background-color:#EBEDF2;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #656B7B;
+    font-size: 13px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-left: 125px;
+}
+
+#browseSection {
+    width: 60%;
+}
+
+#browseLinks {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: left;
+}
+
+#browseHeader {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.browseColumn {
+    display: flex;
+    flex-direction: column;
+    word-wrap: normal;
+    width: 23%;
+    color: #656B7B;
+    text-decoration: none;
+}
+
+.browseColumn a :hover {
+    color: #3370BB;
+}
+
+#helpLinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+#helpHeader {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#helpColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+#helpColumn a :hover {
+    color: #3370BB;
+}
+
+#aboutLinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#aboutHeader {
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#aboutColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutColumn a :hover {
+    color: #3370BB;
+}
+
+#socialMediaLogos {
+    text-align: left;
+    margin-left: 8%;
+    width: max-content;
+    margin-top: 25px;
+}
+
+.sMLogo {
+    padding-left: 25px;
+}
+
+#closingLegal {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 9%;
+    margin-top: 1%;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+
+.legalInfo {
+    width: max-content;
+    height: max-content;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 0;
+    color: #656B7B;
+}
+
+.legalInfo a {
+    color: #656B7B;
+    text-decoration: none;
+}
+
+.legalInfo a:hover {
+    color: #3370BB;
+}
